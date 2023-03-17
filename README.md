@@ -19,8 +19,9 @@ gitops_argocd_project
  sudo service jenkins start
  cat /var/lib/jenkins/secrets/initialAdminPassword. 
  You this password to login into Jenkins (By default it runs on Port 8080)
+ #sudo service jenkins status
 ```
 
- #sudo service jenkins status
+
 
 
