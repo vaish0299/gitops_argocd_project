@@ -1,6 +1,4 @@
-# gitops_argocd_project
-
-# Step by step process
+gitops_argocd_project
 
  ## Set Up a Jenkins server 
 
