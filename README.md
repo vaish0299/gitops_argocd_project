@@ -1,6 +1,6 @@
 gitops_argocd_project
 
- ## Set Up a Jenkins server 
+ ## Set Up a Jenkins server and Installations
 
  Go to AWS and create a Ubuntu EC2 and then install the Jenkins using the following commands
 
