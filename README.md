@@ -2,7 +2,7 @@
 
 * Step by step process
 
-* 1. Set Up a Jenkins server 
+* 1 Set Up a Jenkins server 
 * Go to AWS and create a Ubuntu EC2 and then install the Jenkins using the following commands
 
 * First install JDK cause Jenkins runs on Java
