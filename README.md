@@ -2,9 +2,9 @@
 
 # Step by step process
 
-* 1 Set Up a Jenkins server 
-*
-* Go to AWS and create a Ubuntu EC2 and then install the Jenkins using the following commands
+ ## Set Up a Jenkins server 
+
+ Go to AWS and create a Ubuntu EC2 and then install the Jenkins using the following commands
 
  First install JDK cause Jenkins runs on Java
  
@@ -23,6 +23,6 @@
  You this password to login into Jenkins (By default it runs on Port 8080)
 ```
 
-* #sudo service jenkins status
+ #sudo service jenkins status
 
 
