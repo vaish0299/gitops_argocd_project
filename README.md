@@ -1,4 +1,4 @@
-<!--gitops_argocd_project
+gitops_argocd_project
 
 ## Set Up a Jenkins server and Installations
 
@@ -21,7 +21,7 @@
  You this password to login into Jenkins (By default it runs on Port 8080)
  #sudo service jenkins status
 ```
--->
+
 
 
 
