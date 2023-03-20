@@ -3,7 +3,7 @@
         "gitops_argo_CI": {
             "isDefault": true,
             "runWith": "jenkins-master",
-            "name": "pipeline-test",
+            "name": "gitops_argo_CI",
         }   
     },
     "jenkins-runner.hostConfigs": {
