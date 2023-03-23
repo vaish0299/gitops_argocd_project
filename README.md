@@ -22,6 +22,23 @@ gitops_argocd_project
  #sudo service jenkins status
 ```
 
+## Writing the Jenkins File
+```bash
+setting the environment variables
+
+Stage 1: Cleaning the workspace 
+
+stage 2: Git checkout SCM
+
+stage 3: Build Docker image 
+
+stage 4: Push the docker images
+
+stage 5: Delete the docker images (cleaning the old docker images)
+```
+
+
+
 
 
 

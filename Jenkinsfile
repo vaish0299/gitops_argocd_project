@@ -2,7 +2,8 @@ pipeline
 {
     agent any
 
-    environment{
+    environment
+    {
 
         DOCKERHUB_USERNAME = "vaish0299"
         APP_NAME = "gitops-argo-app"
@@ -62,6 +63,25 @@ pipeline
                     docker_image.push('latest')
                    } 
                 }
+            }
+        }
+        stage('Delete Docker images')
+        {
+            steps
+            {
+                sh "docker rmi ${IMAGE_NAME}:${IMAGE_TAG}"
+                sh "docker rmi ${IMAGE_NAME}:latest"
+            }
+        }
+        stage('Updating kubernetes Deployment file')
+        {
+            steps
+            {
+              sh """
+              cat deployment.yml
+              sed -i 's/${APP_NAME}.*/${APP_NAME}:${IMAGE_TAG}/g' deployment.yml
+              cat deployment.yml
+              """
             }
         }
     }
